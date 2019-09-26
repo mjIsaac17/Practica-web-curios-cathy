@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CuriosCathy</title>
+	<meta name="robots" content="noindex" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/fontello.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
+	<link rel="stylesheet" type="text/css" href="css/banner.css">
+	<link rel="stylesheet" type="text/css" href="css/info.css">
+	<link rel="stylesheet" type="text/css" href="css/contacto.css">
+</head>
+
+<body>
+	<header>
+		<div class="contenedor">
+			<a href="index.html"><h1 class="icon-anchor">CuriosCathy</h1></a>
+			<input type="checkbox" id="menu-bar">
+			<label class="icon-menu" for="menu-bar"></label>
+			<nav class="menu">
+				<a href="index.html">Inicio</a>
+				<a href="">Productos</a>
+				<a href="contacto.html">Contacto</a>
+				<a href="nosotros.html">Nosotros</a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section id="banner">
+			<img src="img/munieca.jpg" alt="">
+			<div class="contenedor">
+				<h2>Curiosidades <br> PROXIMAMENTE</h2>
+				<p>Cual es la curiosidad que quieres ver?</p>
+				<a href="">Leer mas</a>
+			</div>
+		</section>
+		<form action="enviar.php" method="post">
+            <h2>CONTACTO</h2>
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <input type="text" name="correo" placeholder="Correo" required>
+            <input type="text" name="telefono" placeholder="Telefono" required>
+            <textarea name="mensaje" placeholder="Escriba aqui su mensaje" required></textarea>
+            <input type="submit" value="ENVIAR" id="boton">
+	    </form>
+	    <br><br>
+		<section id="info">
+			<h2>CONTACTO DE CURIOS CATHY</h2>	
+		</section>
+	</main>
+	<footer>
+		<div class="contenedor">
+			<p class="copy">CuriosCathy &copy; 2018</p>
+			<div class="sociales">
+				<a class="icon-facebook" href="http://www.facebook.com"></a>
+				<a class="icon-twitter" href="http://www.twitter.com"></a>
+				<a class="icon-instagram" href="http://www.instagram.com"></a>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
